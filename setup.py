@@ -8,5 +8,6 @@ setup(
     license='MIT',
     packages=['functional_recursion'],
     install_requires=[],
-    zip_safe=False
+    zip_safe=False,
+    python_requires=">=3.8",
 )

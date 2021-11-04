@@ -26,7 +26,7 @@ def tail_recursive(f):
                 type, args, kwargs = result
                 if type != _RECURSE_ID:
                     return result
-            except ValueError:
+            except:
                 return result
     return decorated
 
