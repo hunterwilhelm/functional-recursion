@@ -16,7 +16,7 @@ Using this has the following advantages:
 ## Instructions
 Run in the console
 ```bash
-python3 -m pip install git+https://github.com/hunterwilhelm/functional-recursion.git
+python3 -m pip install functional_recursion
 ```
 (Use `python` or `python3` depending on your environment)
 
@@ -42,7 +42,7 @@ def fib_decorator_recursive_generator(last_two=None):
     last_two = (last_two[1], sum(last_two))
     return recur_yield(last_two, yield_val=last_two[0])
 ```
-\* See the complete examples in [this folder](./examples).
+\* See the complete examples and performance times [here](https://github.com/hunterwilhelm/functional-recursion/tree/master/examples).
 
 ## Authors
 * [Hunter Wilhelm](https://github.com/hunterwilhelm)
